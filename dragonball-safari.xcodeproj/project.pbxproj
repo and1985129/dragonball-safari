@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004B27A11C2A99C1000F317E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 004B27A01C2A99C1000F317E /* main.m */; };
+		004B27A41C2A99C1000F317E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004B27A31C2A99C1000F317E /* AppDelegate.m */; };
+		004B27AC1C2A99C1000F317E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004B27AB1C2A99C1000F317E /* Assets.xcassets */; };
+		004B27AF1C2A99C1000F317E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004B27AD1C2A99C1000F317E /* LaunchScreen.storyboard */; };
+		004B27BA1C2A99C1000F317E /* dragonball_safariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004B27B91C2A99C1000F317E /* dragonball_safariTests.m */; };
+		004B27C51C2A99C1000F317E /* dragonball_safariUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004B27C41C2A99C1000F317E /* dragonball_safariUITests.m */; };
+		004B27D61C2BBDDF000F317E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004B27D51C2BBDDF000F317E /* CoreLocation.framework */; };
+		004B27DC1C2BC4DF000F317E /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004B27DB1C2BC4DF000F317E /* TabBarViewController.m */; };
+		004B27DF1C2BD21C000F317E /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004B27DE1C2BD21C000F317E /* PickerViewController.m */; };
+		004B27E11C2BD52A000F317E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004B27E01C2BD52A000F317E /* Main.storyboard */; };
+		004B27E41C2BD6C9000F317E /* SafariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004B27E31C2BD6C9000F317E /* SafariViewController.m */; };
+		005620DE1C2FD23700F31E1B /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 005620DD1C2FD23700F31E1B /* PulsingHaloLayer.m */; };
+		005620E51C2FE35A00F31E1B /* DragonBallTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005620E41C2FE35A00F31E1B /* DragonBallTableViewCell.m */; };
+		005620E91C2FE81F00F31E1B /* UserDefaultTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 005620E81C2FE81F00F31E1B /* UserDefaultTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		004B27B61C2A99C1000F317E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004B27941C2A99C1000F317E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004B279B1C2A99C1000F317E;
+			remoteInfo = "dragonball-safari";
+		};
+		004B27C11C2A99C1000F317E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004B27941C2A99C1000F317E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004B279B1C2A99C1000F317E;
+			remoteInfo = "dragonball-safari";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004B279C1C2A99C1000F317E /* dragonball-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dragonball-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004B27A01C2A99C1000F317E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		004B27A21C2A99C1000F317E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		004B27A31C2A99C1000F317E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		004B27AB1C2A99C1000F317E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		004B27AE1C2A99C1000F317E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		004B27B01C2A99C1000F317E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004B27B51C2A99C1000F317E /* dragonball-safariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dragonball-safariTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004B27B91C2A99C1000F317E /* dragonball_safariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dragonball_safariTests.m; sourceTree = "<group>"; };
+		004B27BB1C2A99C1000F317E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004B27C01C2A99C1000F317E /* dragonball-safariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dragonball-safariUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004B27C41C2A99C1000F317E /* dragonball_safariUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dragonball_safariUITests.m; sourceTree = "<group>"; };
+		004B27C61C2A99C1000F317E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004B27D51C2BBDDF000F317E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		004B27DA1C2BC4DF000F317E /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		004B27DB1C2BC4DF000F317E /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		004B27DD1C2BD21C000F317E /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		004B27DE1C2BD21C000F317E /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		004B27E01C2BD52A000F317E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		004B27E21C2BD6C9000F317E /* SafariViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariViewController.h; sourceTree = "<group>"; };
+		004B27E31C2BD6C9000F317E /* SafariViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariViewController.m; sourceTree = "<group>"; };
+		005620DC1C2FD23700F31E1B /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		005620DD1C2FD23700F31E1B /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+		005620E31C2FE35A00F31E1B /* DragonBallTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonBallTableViewCell.h; sourceTree = "<group>"; };
+		005620E41C2FE35A00F31E1B /* DragonBallTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonBallTableViewCell.m; sourceTree = "<group>"; };
+		005620E71C2FE81F00F31E1B /* UserDefaultTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultTool.h; sourceTree = "<group>"; };
+		005620E81C2FE81F00F31E1B /* UserDefaultTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004B27991C2A99C1000F317E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004B27D61C2BBDDF000F317E /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004B27B21C2A99C1000F317E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004B27BD1C2A99C1000F317E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004B27931C2A99C1000F317E = {
+			isa = PBXGroup;
+			children = (
+				004B279E1C2A99C1000F317E /* dragonball-safari */,
+				004B27D41C2B9C07000F317E /* Framework */,
+				004B27B81C2A99C1000F317E /* dragonball-safariTests */,
+				004B27C31C2A99C1000F317E /* dragonball-safariUITests */,
+				004B279D1C2A99C1000F317E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		004B279D1C2A99C1000F317E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004B279C1C2A99C1000F317E /* dragonball-safari.app */,
+				004B27B51C2A99C1000F317E /* dragonball-safariTests.xctest */,
+				004B27C01C2A99C1000F317E /* dragonball-safariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004B279E1C2A99C1000F317E /* dragonball-safari */ = {
+			isa = PBXGroup;
+			children = (
+				004B27A21C2A99C1000F317E /* AppDelegate.h */,
+				004B27A31C2A99C1000F317E /* AppDelegate.m */,
+				005620E71C2FE81F00F31E1B /* UserDefaultTool.h */,
+				005620E81C2FE81F00F31E1B /* UserDefaultTool.m */,
+				004B27DA1C2BC4DF000F317E /* TabBarViewController.h */,
+				004B27DB1C2BC4DF000F317E /* TabBarViewController.m */,
+				005620E11C2FE31700F31E1B /* Safari */,
+				005620E21C2FE32200F31E1B /* Picker */,
+				005620DB1C2FD23700F31E1B /* PulsingHalo */,
+				004B27AB1C2A99C1000F317E /* Assets.xcassets */,
+				004B27AD1C2A99C1000F317E /* LaunchScreen.storyboard */,
+				004B27B01C2A99C1000F317E /* Info.plist */,
+				004B279F1C2A99C1000F317E /* Supporting Files */,
+				004B27E01C2BD52A000F317E /* Main.storyboard */,
+			);
+			path = "dragonball-safari";
+			sourceTree = "<group>";
+		};
+		004B279F1C2A99C1000F317E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				004B27A01C2A99C1000F317E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		004B27B81C2A99C1000F317E /* dragonball-safariTests */ = {
+			isa = PBXGroup;
+			children = (
+				004B27B91C2A99C1000F317E /* dragonball_safariTests.m */,
+				004B27BB1C2A99C1000F317E /* Info.plist */,
+			);
+			path = "dragonball-safariTests";
+			sourceTree = "<group>";
+		};
+		004B27C31C2A99C1000F317E /* dragonball-safariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				004B27C41C2A99C1000F317E /* dragonball_safariUITests.m */,
+				004B27C61C2A99C1000F317E /* Info.plist */,
+			);
+			path = "dragonball-safariUITests";
+			sourceTree = "<group>";
+		};
+		004B27D41C2B9C07000F317E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				004B27D51C2BBDDF000F317E /* CoreLocation.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		005620DB1C2FD23700F31E1B /* PulsingHalo */ = {
+			isa = PBXGroup;
+			children = (
+				005620DC1C2FD23700F31E1B /* PulsingHaloLayer.h */,
+				005620DD1C2FD23700F31E1B /* PulsingHaloLayer.m */,
+			);
+			path = PulsingHalo;
+			sourceTree = "<group>";
+		};
+		005620E11C2FE31700F31E1B /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				004B27E21C2BD6C9000F317E /* SafariViewController.h */,
+				004B27E31C2BD6C9000F317E /* SafariViewController.m */,
+				005620E31C2FE35A00F31E1B /* DragonBallTableViewCell.h */,
+				005620E41C2FE35A00F31E1B /* DragonBallTableViewCell.m */,
+			);
+			name = Safari;
+			sourceTree = "<group>";
+		};
+		005620E21C2FE32200F31E1B /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				004B27DD1C2BD21C000F317E /* PickerViewController.h */,
+				004B27DE1C2BD21C000F317E /* PickerViewController.m */,
+			);
+			name = Picker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004B279B1C2A99C1000F317E /* dragonball-safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004B27C91C2A99C1000F317E /* Build configuration list for PBXNativeTarget "dragonball-safari" */;
+			buildPhases = (
+				004B27981C2A99C1000F317E /* Sources */,
+				004B27991C2A99C1000F317E /* Frameworks */,
+				004B279A1C2A99C1000F317E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dragonball-safari";
+			productName = "dragonball-safari";
+			productReference = 004B279C1C2A99C1000F317E /* dragonball-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		004B27B41C2A99C1000F317E /* dragonball-safariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004B27CC1C2A99C1000F317E /* Build configuration list for PBXNativeTarget "dragonball-safariTests" */;
+			buildPhases = (
+				004B27B11C2A99C1000F317E /* Sources */,
+				004B27B21C2A99C1000F317E /* Frameworks */,
+				004B27B31C2A99C1000F317E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004B27B71C2A99C1000F317E /* PBXTargetDependency */,
+			);
+			name = "dragonball-safariTests";
+			productName = "dragonball-safariTests";
+			productReference = 004B27B51C2A99C1000F317E /* dragonball-safariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		004B27BF1C2A99C1000F317E /* dragonball-safariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004B27CF1C2A99C1000F317E /* Build configuration list for PBXNativeTarget "dragonball-safariUITests" */;
+			buildPhases = (
+				004B27BC1C2A99C1000F317E /* Sources */,
+				004B27BD1C2A99C1000F317E /* Frameworks */,
+				004B27BE1C2A99C1000F317E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004B27C21C2A99C1000F317E /* PBXTargetDependency */,
+			);
+			name = "dragonball-safariUITests";
+			productName = "dragonball-safariUITests";
+			productReference = 004B27C01C2A99C1000F317E /* dragonball-safariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		004B27941C2A99C1000F317E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Wang, Ke";
+				TargetAttributes = {
+					004B279B1C2A99C1000F317E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					004B27B41C2A99C1000F317E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 004B279B1C2A99C1000F317E;
+					};
+					004B27BF1C2A99C1000F317E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 004B279B1C2A99C1000F317E;
+					};
+				};
+			};
+			buildConfigurationList = 004B27971C2A99C1000F317E /* Build configuration list for PBXProject "dragonball-safari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 004B27931C2A99C1000F317E;
+			productRefGroup = 004B279D1C2A99C1000F317E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004B279B1C2A99C1000F317E /* dragonball-safari */,
+				004B27B41C2A99C1000F317E /* dragonball-safariTests */,
+				004B27BF1C2A99C1000F317E /* dragonball-safariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004B279A1C2A99C1000F317E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004B27E11C2BD52A000F317E /* Main.storyboard in Resources */,
+				004B27AF1C2A99C1000F317E /* LaunchScreen.storyboard in Resources */,
+				004B27AC1C2A99C1000F317E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004B27B31C2A99C1000F317E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004B27BE1C2A99C1000F317E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004B27981C2A99C1000F317E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005620DE1C2FD23700F31E1B /* PulsingHaloLayer.m in Sources */,
+				004B27E41C2BD6C9000F317E /* SafariViewController.m in Sources */,
+				005620E51C2FE35A00F31E1B /* DragonBallTableViewCell.m in Sources */,
+				004B27DC1C2BC4DF000F317E /* TabBarViewController.m in Sources */,
+				004B27A41C2A99C1000F317E /* AppDelegate.m in Sources */,
+				004B27DF1C2BD21C000F317E /* PickerViewController.m in Sources */,
+				005620E91C2FE81F00F31E1B /* UserDefaultTool.m in Sources */,
+				004B27A11C2A99C1000F317E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004B27B11C2A99C1000F317E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004B27BA1C2A99C1000F317E /* dragonball_safariTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004B27BC1C2A99C1000F317E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004B27C51C2A99C1000F317E /* dragonball_safariUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004B27B71C2A99C1000F317E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004B279B1C2A99C1000F317E /* dragonball-safari */;
+			targetProxy = 004B27B61C2A99C1000F317E /* PBXContainerItemProxy */;
+		};
+		004B27C21C2A99C1000F317E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004B279B1C2A99C1000F317E /* dragonball-safari */;
+			targetProxy = 004B27C11C2A99C1000F317E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		004B27AD1C2A99C1000F317E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004B27AE1C2A99C1000F317E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		004B27C71C2A99C1000F317E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		004B27C81C2A99C1000F317E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		004B27CA1C2A99C1000F317E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "dragonball-safari/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibeacongame.dragonball-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		004B27CB1C2A99C1000F317E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "dragonball-safari/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibeacongame.dragonball-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		004B27CD1C2A99C1000F317E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "dragonball-safariTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibeacongame.dragonball-safariTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragonball-safari.app/dragonball-safari";
+			};
+			name = Debug;
+		};
+		004B27CE1C2A99C1000F317E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "dragonball-safariTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibeacongame.dragonball-safariTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragonball-safari.app/dragonball-safari";
+			};
+			name = Release;
+		};
+		004B27D01C2A99C1000F317E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "dragonball-safariUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibeacongame.dragonball-safariUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "dragonball-safari";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		004B27D11C2A99C1000F317E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "dragonball-safariUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibeacongame.dragonball-safariUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "dragonball-safari";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004B27971C2A99C1000F317E /* Build configuration list for PBXProject "dragonball-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004B27C71C2A99C1000F317E /* Debug */,
+				004B27C81C2A99C1000F317E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004B27C91C2A99C1000F317E /* Build configuration list for PBXNativeTarget "dragonball-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004B27CA1C2A99C1000F317E /* Debug */,
+				004B27CB1C2A99C1000F317E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004B27CC1C2A99C1000F317E /* Build configuration list for PBXNativeTarget "dragonball-safariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004B27CD1C2A99C1000F317E /* Debug */,
+				004B27CE1C2A99C1000F317E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004B27CF1C2A99C1000F317E /* Build configuration list for PBXNativeTarget "dragonball-safariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004B27D01C2A99C1000F317E /* Debug */,
+				004B27D11C2A99C1000F317E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 004B27941C2A99C1000F317E /* Project object */;
+}
